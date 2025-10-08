@@ -1,13 +1,14 @@
 # Librerías principales
 pandas
 numpy
-scikit-learn==1.5.1
+scikit-learn
 xgboost
 joblib
 matplotlib
 seaborn
 streamlit
 scipy
+
 
 
 
