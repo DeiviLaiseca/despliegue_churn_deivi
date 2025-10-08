@@ -33,7 +33,7 @@ class DataCleaner(BaseEstimator, TransformerMixin):
 @st.cache_resource
 def load_model():
     """Carga el modelo entrenado y serializado con joblib."""
-    model = joblib.load("model_pipeline.pkl")
+    model = joblib.load("model_logistic_optimized.pkl")
     return model
 
 model_pipeline = load_model()
